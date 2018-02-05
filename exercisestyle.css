@@ -1,0 +1,95 @@
+body{
+ background-color: rgb(0, 0, 0);
+ color: rgba(0,0,0);
+}
+
+.whole{
+ width:350px;
+ height: 350px;
+ background-color: rgb(255, 255, 255);
+ text-align: center;
+ font-family: sans-serif;
+ position: absolute;
+ top:0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto
+
+}
+form {
+   border: 3px solid #f1f1f1;
+
+}
+
+input[type=email]{
+
+ padding: 12px 20px;
+ width: 85%;
+ margin:8px 0;
+ box-sizing: border-box;
+}
+
+input[type=password]{
+ padding: 12px 20px;
+ width:85%;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+
+button{
+ width:85%;
+ background-color: rgb(0,0,0);
+ color:white;
+ padding:14px 20px;
+ margin: 8px,0;
+ border:none;
+ cursor:pointer;
+
+}
+.differentcolorhere{
+ color: #cccccc;
+}
+a:hover{
+ background-color:yellow;
+
+}
+#hoverhere:hover{
+ background-color:yellow;
+
+}
+#welcome{
+ color: #cccccc;
+ margin: 0 auto;
+ text-align: center;
+ padding-bottom:50px;
+ border-top: 1px solid #cccccc;
+   width:200px;
+   font-size:25px;
+}
+
+.hidden{
+
+ display: none;
+}
+
+#welcomecontainer{
+
+ width:500px;
+ height: 200px;
+ background: rgb(255, 255, 255);
+ color:black;
+ text-align: center;
+ font-family: sans-serif;
+ position: absolute;
+ top:0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto
+
+}
+.logout{
+ color: #cccccc;
+ padding-top: 60px;
+}
